@@ -1,0 +1,24 @@
+html, body {
+    margin: 10px;
+    padding: 10px;
+}
+.grid {
+    width: 200px;
+    height: 200px;
+    border: black solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: brown;
+}
+
+.apple {
+    background-color: blue;
+}
